@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from sqlalchemy import create_engine
 
 # Database Connection
-engine = create_engine('postgresql://postgres:umeanor01@localhost:5432/telecom_noc_db')
+engine = create_engine('postgresql://postgres:your_password_here@localhost:5432/telecom_noc_db')
 
 print("Generating telecom asset and customer dimensions...")
 
